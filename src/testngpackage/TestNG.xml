@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Test">
+  <test name="FirefoxTest">
+    <parameter name="browser" value="firefox"/>
+	<classes>
+		<class name= "testngpackage.Annotations"/>
+	</classes>
+  </test>
+   <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+	<classes>
+		<class name= "testngpackage.Annotations"/>
+	</classes>
+  </test>
+   <test name="IETest">
+    <parameter name="browser" value="ie"/>
+	<classes>
+		<class name= "testngpackage.Annotations"/>
+	</classes>
+  </test>
+</suite>

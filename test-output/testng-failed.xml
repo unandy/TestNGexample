@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Test]">
+  <parameter name="browser" value="ie"/>
+  <test name="IETest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="testngpackage.Annotations">
+        <methods>
+          <include name="OpeningBrowser"/>
+          <include name="OpeningBrowser"/>
+          <include name="OpeningBrowser"/>
+          <include name="aftertest"/>
+          <include name="aftertest"/>
+          <include name="aftertest"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testngpackage.Annotations -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [TestNG Test] -->

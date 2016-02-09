@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Test" duration-ms="142908" started-at="2016-02-09T01:08:53Z" finished-at="2016-02-09T01:11:16Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="98088" started-at="2016-02-09T01:08:53Z" finished-at="2016-02-09T01:10:31Z">
+      <class name="testngpackage.Annotations">
+        <test-method status="PASS" signature="OpeningBrowser(java.lang.String)[pri:0, instance:testngpackage.Annotations@43a25848]" name="OpeningBrowser" is-config="true" duration-ms="63349" started-at="2016-02-08T20:08:53Z" finished-at="2016-02-08T20:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngpackage.Annotations@43a25848]" name="Login" duration-ms="30194" started-at="2016-02-08T20:09:57Z" finished-at="2016-02-08T20:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testngpackage.Annotations@43a25848]" name="aftertest" is-config="true" duration-ms="4275" started-at="2016-02-08T20:10:27Z" finished-at="2016-02-08T20:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testngpackage.Annotations -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="34967" started-at="2016-02-09T01:10:31Z" finished-at="2016-02-09T01:11:06Z">
+      <class name="testngpackage.Annotations">
+        <test-method status="PASS" signature="OpeningBrowser(java.lang.String)[pri:0, instance:testngpackage.Annotations@6fadae5d]" name="OpeningBrowser" is-config="true" duration-ms="20133" started-at="2016-02-08T20:10:31Z" finished-at="2016-02-08T20:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testngpackage.Annotations@6fadae5d]" name="Login" duration-ms="12991" started-at="2016-02-08T20:10:51Z" finished-at="2016-02-08T20:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testngpackage.Annotations@6fadae5d]" name="aftertest" is-config="true" duration-ms="1839" started-at="2016-02-08T20:11:04Z" finished-at="2016-02-08T20:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testngpackage.Annotations -->
+    </test> <!-- ChromeTest -->
+    <test name="IETest" duration-ms="9613" started-at="2016-02-09T01:11:06Z" finished-at="2016-02-09T01:11:16Z">
+      <class name="testngpackage.Annotations">
+        <test-method status="PASS" signature="OpeningBrowser(java.lang.String)[pri:0, instance:testngpackage.Annotations@3796751b]" name="OpeningBrowser" is-config="true" duration-ms="6780" started-at="2016-02-08T20:11:06Z" finished-at="2016-02-08T20:11:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:testngpackage.Annotations@3796751b]" name="Login" duration-ms="1891" started-at="2016-02-08T20:11:13Z" finished-at="2016-02-08T20:11:15Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[A JavaScript error was encountered executing the findElement atom. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.75 seconds
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'DESKTOP-13SUBF4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43228/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 97f761f8-9cb4-418c-9ac6-62d6f5911f2f
+*** Element info: {Using=xpath, value=html/body/div[2]/header/div/div[1]/div[3]/div/form/div[3]/div[1]/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: A JavaScript error was encountered executing the findElement atom. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.75 seconds
+Build info: version: '2.49.0', revision: '365eeb4', time: '2016-01-13 18:33:29'
+System info: host: 'DESKTOP-13SUBF4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43228/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 97f761f8-9cb4-418c-9ac6-62d6f5911f2f
+*** Element info: {Using=xpath, value=html/body/div[2]/header/div/div[1]/div[3]/div/form/div[3]/div[1]/input}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testngpackage.Annotations.Login(Annotations.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testngpackage.Annotations@3796751b]" name="aftertest" is-config="true" duration-ms="836" started-at="2016-02-08T20:11:15Z" finished-at="2016-02-08T20:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testngpackage.Annotations -->
+    </test> <!-- IETest -->
+  </suite> <!-- TestNG Test -->
+</testng-results>
